@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_configure:
+	./autogen.sh
+	dh_auto_configure -- \
+		--libdir=/usr/lib/$(DEB_HOST_MULTIARCH) \
+		--disable-silent-rules
+
+override_dh_auto_install:
+	dh_auto_install
+	find debian/gooroom-notice-plugin -name '*.la' -delete
+
+override_dh_makeshlibs:
+	dh_makeshlibs -X debian/gooroom-notice-plugin/usr/lib/$(DEB_HOST_MULTIARCH)/xfce4/panel/plugins/lib*-plugin.so

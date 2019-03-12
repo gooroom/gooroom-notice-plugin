@@ -1,0 +1,41 @@
+# English(USA) translations for gooroom-notice-plugin package.
+# Copyright (C) 2016 THE gooroom-notice-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gooroom-notice-plugin package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gooroom-notice-plugin 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-12 18:43+0900\n"
+"PO-Revision-Date: 2019-03-12 18:43+0900\n"
+"Language-Team: Korean\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../panel-plugin/notice-plugin.desktop.in.in.h:1
+msgid "Gooroom Notice Plugin"
+msgstr "Notice Plugin"
+
+#: ../panel-plugin/notice-plugin.desktop.in.in.h:2
+msgid "General notice and urgency notice"
+msgstr "General notice and urgency notice"
+
+#: ../panel-plugin/gooroom-notice-plugin.c:156
+msgid "other %d cases"
+msgid_plural "other %d cases"
+msgstr[0] "%d other cases"
+
+#: ../panel-plugin/gooroom-notice-plugin.c:638
+msgid "detail view"
+msgstr "detail view"
+
+#: ../panel-plugin/gooroom-notice-popup.c:107
+msgid "Notice"
+msgstr "Notice"
+
+#: ../panel-plugin/gooroom-notice-popup.c:114
+msgid "Close"
+msgstr "Close"

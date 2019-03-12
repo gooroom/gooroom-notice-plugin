@@ -1,0 +1,28 @@
+Source: gooroom-notice-plugin
+Section: xfce
+Priority: optional
+Maintainer: Gooroom Maintainers <gooroom@gooroom.kr>
+Build-Depends: debhelper (>= 9),
+ autotools-dev,
+ autoconf,
+ automake,
+ intltool,
+ libtool,
+ xfce4-dev-tools,
+ xfce4-panel-dev,
+ libglib2.0-dev,
+ libgtk2.0-dev,
+ libxfce4util-dev,
+ libxfce4ui-1-dev,
+ libaccountsservice-dev,
+ libwebkit2gtk-4.0-dev,
+ libgtk-3-dev,
+ libjson-c-dev,
+ libnotify-dev
+Standards-Version: 3.9.6
+
+Package: gooroom-notice-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Xfce4 panel plugin for notice-action
+ Notice application provides general notice and urgency notice.
