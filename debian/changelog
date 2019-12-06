@@ -1,3 +1,12 @@
+gooroom-notice-plugin (0.1.1+grm1u1) unstable; urgency=medium
+
+  [ donghun ]
+  * [cb689e61] Update sources regarding copyright
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 06 Dec 2019 12:25:50 +0900
+
 gooroom-notice-plugin (0.1.0+grm1u1) unstable; urgency=medium
 
   * UNRELEASED
